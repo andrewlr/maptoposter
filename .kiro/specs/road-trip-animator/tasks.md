@@ -59,7 +59,7 @@ This implementation plan converts the road trip animator design into a series of
     - **Property 15: Geocoding Error Handling**
     - **Validates: Requirements 8.6, 15.4**
 
-- [ ] 4. Checkpoint - Validate data import and geocoding
+- [x] 4. Checkpoint - Validate data import and geocoding
   - Ensure all tests pass, ask the user if questions arise.
 
 - [ ] 5. Implement route processing and calculation
