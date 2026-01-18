@@ -5,4 +5,7 @@ This package contains modules for calculating routes between waypoints and manag
 custom route overrides.
 """
 
-# Routing components will be implemented in future tasks
+from .processor import RouteProcessor
+from .custom_routes import CustomRouteManager
+
+__all__ = ['RouteProcessor', 'CustomRouteManager']

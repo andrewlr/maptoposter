@@ -62,8 +62,8 @@ This implementation plan converts the road trip animator design into a series of
 - [x] 4. Checkpoint - Validate data import and geocoding
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 5. Implement route processing and calculation
-  - [ ] 5.1 Create route processor with OpenStreetMap routing
+- [x] 5. Implement route processing and calculation
+  - [x] 5.1 Create route processor with OpenStreetMap routing
     - Calculate route segments between consecutive waypoints using road networks
     - Validate waypoints fall within reasonable geographic bounds
     - Sort waypoints chronologically and handle reordering
@@ -74,7 +74,7 @@ This implementation plan converts the road trip animator design into a series of
     - **Property 4: Route Network Following**
     - **Validates: Requirements 2.2, 2.3, 2.5, 2.6**
 
-  - [ ] 5.3 Add custom route override capabilities
+  - [x] 5.3 Add custom route override capabilities
     - Support user-defined route segments with intermediate waypoints
     - Validate custom routes connect properly to adjacent waypoints
     - Visual feedback for automatic vs custom routing segments
@@ -84,8 +84,8 @@ This implementation plan converts the road trip animator design into a series of
     - **Property 5: Custom Route Override**
     - **Validates: Requirements 2.7, 2.8, 9.2, 9.4**
 
-- [ ] 6. Build cache management system
-  - [ ] 6.1 Implement hierarchical geographic data caching
+- [x] 6. Build cache management system
+  - [x] 6.1 Implement hierarchical geographic data caching
     - Cache organization by geographic hierarchy (country > state > region > city)
     - Spatial indexing for efficient region queries
     - Route-focused data acquisition with configurable buffer distances
@@ -96,7 +96,7 @@ This implementation plan converts the road trip animator design into a series of
     - **Property 12: Cache Organization**
     - **Validates: Requirements 6.4, 6.5, 10.2, 10.3, 6.8, 10.1, 10.4**
 
-  - [ ] 6.3 Add cache management and API rate limiting
+  - [x] 6.3 Add cache management and API rate limiting
     - Implement proper throttling for OpenStreetMap API requests
     - Cache compression and size management with LRU eviction
     - Usage monitoring and reporting with cache hit rates
